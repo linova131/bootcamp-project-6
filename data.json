@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "project_name": "Quote Generator",
+      "description": "An app that displays random quotes from SFF authors each time a button is clicked",
+      "technologies": ["HTML", "CSS","Javascript"],
+      "live_link": "link",
+      "github_link": "https://github.com/tpo-lnovaski/Quote-Generator",
+      "image_urls": ["/public/images/project-1-square.jpg", "/public/images/project-1-landscape.jpg"]
+    },
+    {
+      "id": "1",
+      "project_name": "Data Pagination",
+      "description": "Given a file with data for 42 students, I created a page that dynamically displays student information, with functional page buttons and search bar.",
+      "technologies": ["HTML","Javascript"],
+      "live_link": "link",
+      "github_link": "https://github.com/tpo-lnovaski/Project-2-Data-Pagination",
+      "image_urls": ["/public/images/project-2-square.jpg", "/public/images/project-2-landscape.jpg"]
+    },
+    {
+      "id": "2",
+      "project_name": "Interactive Form",
+      "description": "An interactive form for a fictional conference, with field validation throughout.",
+      "technologies": ["Javascript"],
+      "live_link": "link",
+      "github_link": "https://github.com/tpo-lnovaski/Project-3-Interactive-Form",
+      "image_urls": ["/public/images/project-3-square.jpg", "/public/images/project-3-landscape-1.jpg","/public/images/project-3-landscape-2.jpg","/public/images/project-3-landscape-3.jpg"]
+    },
+    {
+      "id": "3",
+      "project_name": "Game Show",
+      "description": "A game show app that challenges a user to guess a phrase without losing 5 lives.",
+      "technologies": ["HTML", "CSS","Javascript"],
+      "live_link": "link",
+      "github_link": "https://github.com/tpo-lnovaski/Project-4-Game-Show",
+      "image_urls": ["/public/images/project-4-square.jpg", "/public/images/project-4-landscape-1.jpg","/public/images/project-4-landscape-2.jpg","/public/images/project-4-landscape-3.jpg","/public/images/project-4-landscape-4.jpg"]
+    },
+    {
+      "id": "4",
+      "project_name": "PubliC API Request",
+      "description": "An app for a fictional company that parses a JSON file and then displays employee contact information. There is a functional search bar and clicking on an individual brings up a modal window with additional data.",
+      "technologies": ["HTML", "CSS","Javascript", "JSON","AJAX"],
+      "live_link": "link",
+      "github_link": "https://github.com/tpo-lnovaski/Project-5-Public-API-Request",
+      "image_urls": ["/public/images/project-5-square.jpg", "/public/images/project-5-landscape-1.jpg","/public/images/project-5-landscape-2.jpg"]
+    }
+  ]
+}
