@@ -1,18 +1,15 @@
 const express = require('express');
 const router = express.Router();
 const data = require('../data.json');
+const projects = data.projects;
 
-router.get('/', (req,res, next) => {
-  console.log(data.project_name);
+router.get('/', (req, res, next) => {
+  res.render('index', {projects});
   next();
 });
 
-// router.get('/', (req, res) => {
-//   res.render('index'), data;
-// });
-
-router.get('/', (req, res) => {
-  console.log('hello world');
+router.get('/about', (req, res) => {
+  res.render('about');
 });
 
 module.exports = router;
