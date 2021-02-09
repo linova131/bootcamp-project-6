@@ -19,7 +19,10 @@ app.use((req, res, next) => {
 })
 
 app.use((err, req, res, next) => {
-  console.log('global error handler fired');
+  if (err.status === undefined) {
+    err.status = 500;
+    err.message = 'Something went wrong!'
+  }
   res.locals.error = err;
   res.render('error');
 })
