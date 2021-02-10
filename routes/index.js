@@ -5,7 +5,6 @@ const projects = data.projects;
 
 router.get('/', (req, res, next) => {
   res.render('index', {projects});
-  next();
 });
 
 router.get('/about', (req, res) => {
